@@ -1,0 +1,28 @@
+Add to Cart
+
+- pages
+  - home
+    - contains products list
+    - ratings can be updated
+    - add products to cart
+    - add to cart button disabled if product in cart
+  - cart
+    - contains cart list
+    - remove items from cart
+- components
+  - StyledComponents
+    - contains mui styled components
+  - Header
+    - contains links to home and cart
+    - also contains drawer which comes in mobile mode which makes it responsive
+  - Footer
+  - Poster
+  - ProductList
+  - ProductCard
+  - CartList
+  - CartCard
+- context
+  - product context
+    - maintains products and cart data
+    - also has operations on cart
+    - used in ProductList and CartList components
